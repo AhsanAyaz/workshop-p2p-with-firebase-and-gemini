@@ -319,10 +319,9 @@ This guide covers the most common issues you might encounter during the workshop
    - Default is usually `public/` or root `/`
    - Make sure all files are in that directory
 
-4. **Check index.html**:
-   - Must be named exactly `index.html` (lowercase)
-   - Must be in the public directory
-   - Check for syntax errors (unclosed tags, etc.)
+4. **Check index/page**:
+   - Ensure `app/page.tsx` exists and is the main entry point
+   - Check for build errors in the console
 
 5. **Hard Refresh**:
    - Ctrl+Shift+R (Windows/Linux) or Cmd+Shift+R (Mac)
@@ -339,31 +338,17 @@ This guide covers the most common issues you might encounter during the workshop
 
 **Solutions:**
 
-1. **Check File Name**:
-   - Must be named `about.html` (lowercase)
-   - Not `About.html` or `about.HTML`
+1. **Check Route Name**:
+   - Ensure you have a folder `app/about` with a `page.tsx` inside
+   - URL should be `https://your-app.web.app/about`
 
-2. **Check File Location**:
-   - Should be in same directory as `index.html`
-   - URL should be `https://your-app.web.app/about.html`
+2. **Check Export**:
+   - Ensure `page.tsx` defaults exports a React component
+   - Check for build errors
 
 3. **Re-deploy**:
-   - After adding about.html, you must deploy again
+   - After adding the page, you must deploy again
    - Changes don't appear until you deploy
-
-4. **Check Firebase Hosting Configuration**:
-   ```json
-   {
-     "hosting": {
-       "public": ".",
-       "ignore": [
-         "firebase.json",
-         "**/.*",
-         "**/node_modules/**"
-       ]
-     }
-   }
-   ```
 
 ---
 
@@ -614,21 +599,19 @@ if (allGood) {
 2. Paste it in an incognito browser window
 3. Does the page load? If not:
    - Check that you deployed your app
-   - Check that the URL is correct
-   - Check that `/about.html` exists in your deployed app
+   - Check that the URL is correct (usually ends in `/about`)
+   - Check that `app/about/page.tsx` exists in your project
 
 #### Error: "This doesn't appear to be a workshop project"
 
 **Cause:** Missing the `workshop-project` meta tag.
 
 **Fix:**
-1. Open your `about.html` file
-2. In the `<head>` section, add:
-   ```html
-   <meta name="workshop-project" content="true">
-   ```
-3. Re-deploy your app
-4. Try submitting again
+1. Open your `app/about/page.tsx` file
+2. Ensure the metadata is being rendered (check `export const metadata` or the returned JSX)
+3. It needs to include: `<meta name="workshop-project" content="true">`
+4. Re-deploy your app
+5. Try submitting again
 
 #### Error: "Required field missing: [field name]"
 
@@ -636,11 +619,8 @@ if (allGood) {
 
 **Fix:**
 1. Check which field is missing (the error will tell you)
-2. Open your `about.html` file
-3. Add the missing meta tag in the `<head>` section:
-   ```html
-   <meta name="project-name" content="Your Project Name">
-   ```
+2. Open your `app/about/page.tsx` file
+3. Add the missing meta tag
 4. Make sure there are NO placeholder brackets `[...]` in the content
 5. Re-deploy your app
 6. Try submitting again
@@ -660,11 +640,11 @@ if (allGood) {
 
 **Fix:**
 1. Make sure your URL starts with `https://`
-2. Make sure it ends with `.html` or `/about`
+2. Make sure it ends with `/about`
 3. Remove any spaces or special characters
 4. Example correct format:
    ```
-   https://my-app.web.app/about.html
+   https://my-app.web.app/about
    ```
 
 #### Error: "CORS error" or "Cross-origin request blocked"
