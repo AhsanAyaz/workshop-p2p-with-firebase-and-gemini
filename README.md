@@ -458,7 +458,6 @@ PAGE REQUIREMENTS:
      }
    }
    </script>
-````
 
 3. STYLING:
 
@@ -475,12 +474,13 @@ PAGE REQUIREMENTS:
 OUTPUT:
 Create the complete Next.js page component (`app/about/page.tsx`) with all metadata properly configured. Leave [DEPLOYMENT_URL] as a placeholder - we'll update it after deployment.
 
-```
+````
 
 ### 🎯 Action Steps
 
 1. **Copy the prompt above**
 2. **Fill in YOUR details**:
+
    - Project name
    - Description
    - Your name(s)
@@ -639,6 +639,7 @@ Be specific about file paths, configuration values, and commands.
 ### 🎉 Success!
 
 Once deployed, you should have:
+
 - ✅ Live application URL (https://your-app.web.app)
 - ✅ About page with correct metadata
 - ✅ Functioning AI features
@@ -669,6 +670,7 @@ Your instructor will share a **QR code** linking to a submission form in the wor
 3. **Submit!**
 
 The instructor's gallery app will automatically:
+
 - ✅ Scrape your about page metadata
 - ✅ Extract project name, description, team members
 - ✅ Verify the demo link works
@@ -677,6 +679,7 @@ The instructor's gallery app will automatically:
 ### ⚠️ Before Submitting - Final Checklist
 
 Make sure:
+
 - [ ] Your app is deployed and accessible at the demo URL
 - [ ] The about page loads correctly (`/about`)
 - [ ] All metadata tags are present and filled in
@@ -687,6 +690,7 @@ Make sure:
 ### 🎨 What Happens Next
 
 Your project will appear in the **live workshop gallery** where:
+
 - Everyone can see what you built
 - Participants can try each other's apps
 - The instructor can showcase the diversity of projects
@@ -724,6 +728,7 @@ Your project will appear in the **live workshop gallery** where:
 ### Your New Superpower
 
 You now know how to go **from idea to production** without:
+
 - ❌ Spending hours on setup and configuration
 - ❌ Fighting with deployment pipelines
 - ❌ Debugging obscure environment issues
@@ -750,17 +755,20 @@ You now know how to go **from idea to production** without:
 ### 🚀 What's Next?
 
 #### Immediate Actions (Next 24 Hours)
+
 1. **Enhance your app** - Add that one more feature you were thinking about
 2. **Share on social media** - Show off what you built!
 3. **Try a different app idea** - Practice makes perfect
 
 #### Short-term Goals (Next Week)
+
 1. **Add authentication** - Make it multi-user
 2. **Improve AI prompts** - Better responses, more features
 3. **Polish the UI** - Animations, better UX
 4. **Add more data** - Richer Firestore schemas
 
 #### Long-term Goals (Next Month)
+
 1. **Build your side project** - That idea you've been putting off
 2. **Explore advanced Genkit** - RAG, multi-modal AI, agents
 3. **Contribute to community** - Share your learnings
@@ -796,6 +804,7 @@ Help us improve future workshops! Please scan the QR code or visit the link belo
 - Did you ship your side project? Tell us about it!
 
 Connect with the instructor: **Muhammad Ahsan Ayaz**
+
 - Twitter/X: [@codewithahsan](https://twitter.com/codewithahsan)
 - GitHub: [@AhsanAyaz](https://github.com/AhsanAyaz)
 
@@ -806,6 +815,7 @@ Connect with the instructor: **Muhammad Ahsan Ayaz**
 This workshop was created for **AI Workshop: Firebase & Gemini Code Assist**.
 
 Feel free to:
+
 - ✅ Use this material for learning
 - ✅ Share with others (with attribution)
 - ✅ Adapt for your own workshops (with credit)
@@ -815,4 +825,7 @@ Feel free to:
 **Remember**: The best code is shipped code. No more localhost graveyards! 🚀
 
 _Workshop created by Muhammad Ahsan Ayaz_
+
+```
+
 ```
