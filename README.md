@@ -1,6 +1,6 @@
 # From Prompt to Production: Firebase Studio & Gemini Code Assist Workshop
 
-## TensorFlow User Group Islamabad - AI Study Jams Day 3 Workshop
+## AI Workshop: Firebase & Gemini Code Assist
 
 **Welcome to the future of development!** In the next 60 minutes, you'll experience the revolutionary workflow introduced in today's talk: going from a single idea to a fully deployed, production-ready AI-powered web application—without getting lost in setup, configuration, or deployment hell.
 
@@ -390,7 +390,7 @@ PAGE REQUIREMENTS:
    LINKS SECTION:
    - Demo URL: [Will be filled after deployment - leave placeholder]
    - GitHub Repository: [Optional - add if you plan to push to GitHub]
-   - Built during: "TensorFlow User Group Islamabad - AI Study Jams Day 3 Workshop"
+   - Built during: "AI Workshop: Firebase & Gemini Code Assist"
    - Date: [Today's date]
 
 2. CRITICAL - Add structured metadata in the <head> section:
@@ -703,7 +703,7 @@ You now know how to go **from idea to production** without:
 
 #### Immediate Actions (Next 24 Hours)
 1. **Enhance your app** - Add that one more feature you were thinking about
-2. **Share on social media** - Show off what you built! Tag @TFUGIslamabad
+2. **Share on social media** - Show off what you built!
 3. **Try a different app idea** - Practice makes perfect
 
 #### Short-term Goals (Next Week)
@@ -729,7 +729,6 @@ You now know how to go **from idea to production** without:
 
 ### 🤝 Community
 
-- **TensorFlow User Group Islamabad**: [bit.ly/TFUGIslamabad](http://bit.ly/TFUGIslamabad)
 - **Firebase Community**: [firebase.google.com/community](https://firebase.google.com/community)
 - **Genkit Discord**: [goo.gle/genkit-discord](https://goo.gle/genkit-discord)
 
@@ -737,7 +736,11 @@ You now know how to go **from idea to production** without:
 
 ## 💬 Feedback
 
-Help us improve future workshops! Share your thoughts:
+Help us improve future workshops! Please scan the QR code or visit the link below to share your thoughts:
+
+![Feedback QR Code](./workshop-feedback.png)
+
+[**Share Feedback**](https://audiencemeter.pro/s/T5i6U)
 
 - What worked well?
 - What was confusing?
@@ -752,7 +755,7 @@ Connect with the instructor: **Muhammad Ahsan Ayaz**
 
 ## 📜 License & Attribution
 
-This workshop was created for **TensorFlow User Group Islamabad - AI Study Jams Day 3**.
+This workshop was created for **AI Workshop: Firebase & Gemini Code Assist**.
 
 Feel free to:
 - ✅ Use this material for learning
@@ -763,5 +766,4 @@ Feel free to:
 
 **Remember**: The best code is shipped code. No more localhost graveyards! 🚀
 
-_Workshop created by Muhammad Ahsan Ayaz for TensorFlow User Group Islamabad_
-_Follow us: [bit.ly/TFUGIslamabad](http://bit.ly/TFUGIslamabad)_
+_Workshop created by Muhammad Ahsan Ayaz_

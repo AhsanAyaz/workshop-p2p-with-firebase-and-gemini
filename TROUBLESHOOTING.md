@@ -697,7 +697,7 @@ This is a complex issue. Contact the instructor for help. In the meantime:
 
 ### After Workshop:
 
-- **Community Forum**: TensorFlow User Group Islamabad channels
+- **Community Forum**: Workshop channels
 - **GitHub Issues**: Post in this workshop repo
 - **Email Instructor**: Contact info in workshop materials
 
@@ -765,4 +765,4 @@ This is a complex issue. Contact the instructor for help. In the meantime:
 
 **Remember**: Everyone encounters issues! Don't get frustrated. Debugging is part of learning. Ask for help! 💪
 
-**Workshop**: TensorFlow User Group Islamabad - AI Study Jams Day 3
+**Workshop**: AI Workshop: Firebase & Gemini Code Assist
