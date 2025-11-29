@@ -57,6 +57,7 @@ By the end of this workshop, you will have:
 - **Firebase Studio Access** [https://studio.firebase.google.com](https://studio.firebase.google.com/)
 - **Google Cloud Credits** (We'll provide that)
 - **Modern Web Browser** (Chrome, Edge, Safari)
+- **Gemini CLI** (Optional but recommended)
 - **An Idea** (we'll provide inspiration if needed!)
 
 ### Setup Steps (5 minutes)
@@ -79,15 +80,35 @@ By the end of this workshop, you will have:
    - **Bottom**: Chat interface (where the magic happens!)
 
 4. **Choose Your App Idea**
+
    - See [APP-IDEAS.md](./APP-IDEAS.md) for inspiration
    - Or bring your own idea!
    - Keep it achievable in 45 minutes
+
+5. **Install Gemini CLI (Optional)**
+   - Open your terminal and run:
+     ```bash
+     npm install -g @google/gemini-cli
+     ```
+   - This tool helps with code explanation, refactoring, and more.
 
 **Ready? Let's build!** 🛠️
 
 ---
 
 ## Part 1: From Prompt to App
+
+### Step 0: Research & Prompt Generation (Optional)
+
+Before you start building, you can use **[NotebookLM](https://notebooklm.google.com/)** to research your idea and generate a high-quality prompt.
+
+1.  **Open NotebookLM** and create a new notebook.
+2.  **Add sources** relevant to your app idea (e.g., PDFs, websites, or just your own notes).
+3.  **Ask NotebookLM** to help you structure your app requirements:
+    > "I want to build a [APP IDEA]. Based on the sources, what are the key features and data structures I should include? Please generate a prompt following the [ROLE] + [CONTEXT] + [TASK] structure for Firebase Studio."
+4.  **Copy the generated prompt** and use it in the next step.
+
+### Step 1: The First Prompt
 
 **Duration**: 12 minutes
 **Goal**: Generate your complete app from a single well-crafted prompt
@@ -746,6 +767,7 @@ You now know how to go **from idea to production** without:
 - **Firebase Genkit**: [firebase.google.com/docs/genkit](https://firebase.google.com/docs/genkit)
 - **Firestore Docs**: [firebase.google.com/docs/firestore](https://firebase.google.com/docs/firestore)
 - **Firebase App Hosting**: [firebase.google.com/docs/app-hosting](https://firebase.google.com/docs/app-hosting)
+- **Gemini CLI**: [github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 
 ### 📚 Workshop Materials
 

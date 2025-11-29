@@ -4,6 +4,10 @@ Copy and paste these prompts into Firebase Studio when instructed by the worksho
 
 ## 1. Initial App Generation
 
+> [!TIP] > **Research First:** Use [NotebookLM](https://notebooklm.google.com/) to research your app idea and generate a high-quality prompt.
+>
+> **Ask NotebookLM:** "I want to build a [APP IDEA]. Based on my sources (or general knowledge), what are the key features and data structures I should include? Please generate a prompt following the [ROLE] + [CONTEXT] + [TASK] structure for Firebase Studio."
+
 **Template:**
 
 ```markdown
